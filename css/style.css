@@ -1,12 +1,40 @@
 /* GENERAL */
 html {
     box-sizing: border-box;
+    background-color: powderblue;
+    font-size: 10px;
 }
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 5px;
+}
+
+
 .main {
-    width: 100%;
-    margin: 0 auto;
+    border: 5px solid peachpuff;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 5px;
 }
