@@ -15,7 +15,7 @@ possibleChoises.forEach(possibleChoice => possibleChoice.addEventListener('click
 }));
 
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 3) // 3 or possibleChoises.length
+    const randomNumber = Math.floor(Math.random() * 3 + 1) // 3 or possibleChoises.length
     // console.log(randomNumber);
 
     if (randomNumber === 1) {
@@ -28,6 +28,7 @@ function generateComputerChoice() {
         computerChoice = 'scissors'
     }
     computerChoiceDisplay.innerHTML = computerChoice;
+    console.log(computerChoiceDisplay);
 }
 
 function getResult() {

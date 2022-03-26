@@ -30,6 +30,11 @@ button {
 .main {
     border: 5px solid peachpuff;
     border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+
 }
 
 .buttons {
@@ -37,4 +42,20 @@ button {
     align-content: center;
     justify-content: center;
     gap: 5px;
+}
+
+button {
+    border-radius: 6px;
+}
+
+#rock {
+    background-color: #946B00;
+}
+
+#paper {
+    background-color: #FFFFFF;
+}
+
+#scissors {
+    background-color: #C0C0C0;
 }
